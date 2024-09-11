@@ -1,19 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using BakeryShop.Domain.Abstractions;
-using BakeryShop.Domain.Items;
+using BakeryShop.Domain.Orders;
 
 namespace BakeryShop.Domain.Users;
 
 public class Cart : Entity
 {
-    /*private readonly IList<BakeryItem> _items = [];
+    private readonly IList<OrderItem> _items = [];
 
-    [NotMapped] public IReadOnlyCollection<BakeryItem> Items => _items.AsReadOnly();
+    [NotMapped] public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
 
-    public void AddItem(BakeryItem item)
+    public void AddItem(OrderItem item)
     {
-        _items
+        
     }
 
-    public void ClearCart() => _items.Clear();s*/
+    public void ClearCart() => _items.Clear();
 }

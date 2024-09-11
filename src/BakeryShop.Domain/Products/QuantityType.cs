@@ -1,4 +1,4 @@
-﻿namespace BakeryShop.Domain.Items;
+﻿namespace BakeryShop.Domain.Products;
 
 public enum QuantityType
 {

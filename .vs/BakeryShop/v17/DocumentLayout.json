@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\devsx\\BakeryShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:20:05.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Login\\LoginCommand.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Login\\LoginCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:20:04.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\User.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\User.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:17:47.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:14:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterServices.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:12:50.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,4 +13,10 @@ public class User : IdentityUser<Guid>, IEntity<Guid>
     private readonly IList<Order> _orders = [];
 
     [NotMapped] public IReadOnlyCollection<Order> Orders => _orders.AsReadOnly();
+
+    public static User Create(string email) => new() { 
+        Email = email,
+        UserName = email ,
+        Cart = new()
+    };
 }

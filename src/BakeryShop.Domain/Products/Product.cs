@@ -1,6 +1,6 @@
 ﻿using BakeryShop.Domain.Abstractions;
 
-namespace BakeryShop.Domain.Items;
+namespace BakeryShop.Domain.Products;
 
 public class Product : Entity
 {
