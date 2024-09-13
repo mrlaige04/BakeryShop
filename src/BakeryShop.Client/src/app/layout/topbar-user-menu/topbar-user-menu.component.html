@@ -1,5 +1,8 @@
 <div class="topbar-user-menu">
   @if (isAuthenticated()) {
+    @if (isAdmin()) {
+      <p-button link routerLink="/admin" icon="pi pi-crown"/>
+    }
     <bs-topbar-cart></bs-topbar-cart>
 
     <p-button label="Logout" (onClick)="logout()"/>

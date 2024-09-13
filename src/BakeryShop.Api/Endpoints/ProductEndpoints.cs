@@ -1,5 +1,7 @@
 ﻿using Ardalis.Result.AspNetCore;
+using BakeryShop.Application.Products.CreateProduct;
 using BakeryShop.Application.Products.SearchProducts;
+using BakeryShop.Domain.Consts;
 using MediatR;
 
 namespace BakeryShop.Api.Endpoints;
@@ -16,6 +18,19 @@ public static class ProductEndpoints
         {
             var result = await sender.Send(query);
 
+            return result.ToMinimalApiResult();
+        });
+
+
+
+
+
+        var staffProductsGroup = productsGroup;
+            //.RequireAuthorization(Policy.Admin);
+
+        staffProductsGroup.MapPost("", async (CreateProductCommand command, ISender sender) =>
+        {
+            var result = await sender.Send(command);
             return result.ToMinimalApiResult();
         });
     }

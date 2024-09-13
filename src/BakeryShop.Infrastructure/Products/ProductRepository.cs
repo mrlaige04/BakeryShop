@@ -16,6 +16,14 @@ public class ProductRepository(ApplicationDbContext dbContext) : IProductReposit
         return await Products.FirstOrDefaultAsync(p => p.Id == id, cancellationToken);
     }
 
+    public async Task<Guid> InsertAsync(Product product, CancellationToken cancellationToken = default)
+    {
+        await Products.AddAsync(product, cancellationToken);
+        await dbContext.SaveChangesAsync(cancellationToken);
+
+        return product.Id;
+    }
+
     public IQueryable<Product> Search(Expression<Func<Product, bool>> predicate)
     {
         return Products.Where(predicate);

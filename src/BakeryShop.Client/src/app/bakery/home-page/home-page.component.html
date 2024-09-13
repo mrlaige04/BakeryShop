@@ -18,12 +18,12 @@
           <div class="second-block flex gap-3 flex-column lg:flex-row">
             <input type="number"
                    pInputText
-                   placeholder="Price From"
+                   placeholder="Price from"
                    [(ngModel)]="filterState().priceFrom"
             >
             <input type="number"
                    pInputText
-                   placeholder="To"
+                   placeholder="Price to"
                    [(ngModel)]="filterState().priceTo"
             >
 
@@ -41,7 +41,8 @@
               <p>{{ product.description | truncate:50 }}...</p>
             }
             <div class="price font-italic text-gray-500">
-              20$ for {{product.quantity}} {{QuantityType[product.quantityType]}}
+              {{ product.price }}{{ product.currency.code }}
+              for {{product.quantity}} {{QuantityType[product.quantityType]}}
             </div>
           </div>
           <ng-template pTemplate="footer">

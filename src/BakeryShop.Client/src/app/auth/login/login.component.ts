@@ -4,7 +4,7 @@ import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/
 import {LayoutService} from "../../layout/layout.service";
 import {AccessTokenModel} from "../models/access-token.model";
 import {Subscription} from "rxjs";
-import {Router} from "@angular/router";
+import {Router, RouterLink} from "@angular/router";
 import {CardModule} from "primeng/card";
 import {Button} from "primeng/button";
 import {InputTextModule} from "primeng/inputtext";
@@ -16,7 +16,8 @@ import {InputTextModule} from "primeng/inputtext";
     ReactiveFormsModule,
     CardModule,
     Button,
-    InputTextModule
+    InputTextModule,
+    RouterLink
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
@@ -45,7 +46,6 @@ export class LoginComponent implements OnInit, OnDestroy {
   })
 
   submit() {
-    return;
     this.loginSubscription = this.auth.login(this.loginForm.value).subscribe({
       next: async (accessToken: AccessTokenModel) => {
         this.auth.handleSuccessLogin(accessToken)

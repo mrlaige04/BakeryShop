@@ -10,6 +10,10 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
         builder.HasKey(p => p.Id);
 
+        builder.HasOne(p => p.Currency)
+            .WithMany()
+            .HasForeignKey(p => p.CurrencyId);
+
         builder.ToTable("Products");
     }
 }

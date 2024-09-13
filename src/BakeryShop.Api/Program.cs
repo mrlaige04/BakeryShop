@@ -1,5 +1,6 @@
 using BakeryShop.Api;
 using BakeryShop.Api.Endpoints;
+using BakeryShop.Api.Services;
 using BakeryShop.Application;
 using BakeryShop.Infrastructure;
 
@@ -12,6 +13,10 @@ builder.Services
     .AddWebUi();
 
 var app = builder.Build();
+
+using var serviceScope = app.Services.CreateScope();
+var adminInitializer = serviceScope.ServiceProvider.GetRequiredService<AdminInitializer>();
+await adminInitializer.Initialize();
 
 if (app.Environment.IsDevelopment())
 {

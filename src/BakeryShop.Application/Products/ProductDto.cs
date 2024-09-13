@@ -7,6 +7,9 @@ public class ProductDto
     public string Title { get; set; } = null!;
     public string? Description { get; set; }
     public decimal Price { get; set; }
+
+    public Currency Currency { get; set; } = null!;
+
     public double Quantity { get; set; }
     public QuantityType QuantityType { get; set; }
 
@@ -17,6 +20,7 @@ public class ProductDto
         Description = product.Description,
         Price = product.Price,
         Quantity = product.Quantity,
-        QuantityType = product.QuantityType
+        QuantityType = product.QuantityType,
+        Currency = product.Currency
     };
 }

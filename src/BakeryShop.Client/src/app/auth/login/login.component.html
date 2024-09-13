@@ -1,4 +1,5 @@
-<div class="h-full flex justify-content-center align-items-center">
+<div class="h-full flex justify-content-center align-items-center flex-column gap-3">
+  <p-button label="Home" icon="pi pi-arrow-left" routerLink="/" link iconPos="left"/>
   <p-card header="Login">
     <div class="form-section">
       @if (errorMessage()) {
@@ -6,8 +7,7 @@
           {{errorMessage()}}
         </div>
       }
-
-      <form [formGroup]="loginForm" #form (ngSubmit)="submit()">
+      <form [formGroup]="loginForm" (ngSubmit)="submit()">
         <div class="field flex flex-column gap-1">
           <label for="email">Email</label>
           <input type="email" id="email" pInputText formControlName="email">
@@ -16,8 +16,13 @@
           <label for="password">Password</label>
           <input type="password" id="password" pInputText formControlName="password">
         </div>
+
         <p-button label="Submit" type="submit"/>
       </form>
     </div>
+
+    <ng-template pTemplate="footer">
+      <p-button link routerLink="/auth/register" class="block text-center">Or create account</p-button>
+    </ng-template>
   </p-card>
 </div>

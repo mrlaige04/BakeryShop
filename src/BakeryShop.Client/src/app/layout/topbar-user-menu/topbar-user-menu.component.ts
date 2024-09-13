@@ -18,6 +18,7 @@ import {Button} from "primeng/button";
 export class TopbarUserMenuComponent {
   private authService = inject(AuthService);
   isAuthenticated = this.authService.isAuthenticated;
+  isAdmin = this.authService.isAdmin;
 
   logout() {
     this.authService.logout();

@@ -4,5 +4,5 @@ public enum QuantityType
 {
     Grams,
     Kilograms,
-    Piece
+    Pieces
 }

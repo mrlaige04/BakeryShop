@@ -65,6 +65,8 @@ public static class RegisterServices
                     .AllowAnyMethod()
                     .AllowAnyHeader());
         });
+
+        services.AddScoped<AdminInitializer>();
         
         return services;
     }
