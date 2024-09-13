@@ -7,6 +7,6 @@ public static class QueryableExtensions
 {
     public static Task<PaginatedList<TDestination>> PaginatedListAsync<TDestination>(
         this IQueryable<TDestination> queryable,
-        int pageNumber, int pageSize) where TDestination : IEntity<Guid>
+        int pageNumber, int pageSize)
         => PaginatedList<TDestination>.CreateAsync(queryable, pageNumber, pageSize);
 }

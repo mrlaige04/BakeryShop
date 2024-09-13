@@ -1,0 +1,23 @@
+<div class="h-full flex justify-content-center align-items-center">
+  <p-card header="Login">
+    <div class="form-section">
+      @if (errorMessage()) {
+        <div class="error-message">
+          {{errorMessage()}}
+        </div>
+      }
+
+      <form [formGroup]="loginForm" #form (ngSubmit)="submit()">
+        <div class="field flex flex-column gap-1">
+          <label for="email">Email</label>
+          <input type="email" id="email" pInputText formControlName="email">
+        </div>
+        <div class="field flex flex-column gap-1">
+          <label for="password">Password</label>
+          <input type="password" id="password" pInputText formControlName="password">
+        </div>
+        <p-button label="Submit" type="submit"/>
+      </form>
+    </div>
+  </p-card>
+</div>

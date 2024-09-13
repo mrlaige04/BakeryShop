@@ -1,9 +1,8 @@
-﻿using BakeryShop.Domain.Abstractions;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace BakeryShop.Application.Common.Models;
 
-public class PaginatedList<T> where T : IEntity<Guid>
+public class PaginatedList<T>
 {
     public IReadOnlyCollection<T> Items { get; }
     public int PageNumber { get; }

@@ -26,6 +26,9 @@ app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapUsers();
+var apiGroup = app.MapGroup("api");
+
+apiGroup.MapUsers();
+apiGroup.MapProducts();
 
 app.Run();

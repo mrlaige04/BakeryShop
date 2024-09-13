@@ -1,6 +1,5 @@
 ﻿using Ardalis.Result;
 using BakeryShop.Application.Common.Abstractions;
-using BakeryShop.Application.Common.Models;
 using BakeryShop.Application.Identity;
 
 namespace BakeryShop.Application.Users.Login;

@@ -1,0 +1,9 @@
+<div class="topbar-user-menu">
+  @if (isAuthenticated()) {
+    <bs-topbar-cart></bs-topbar-cart>
+
+    <p-button label="Logout" (onClick)="logout()"/>
+  } @else {
+    <p-button routerLink="/auth/login" label="Login" link/>
+  }
+</div>
