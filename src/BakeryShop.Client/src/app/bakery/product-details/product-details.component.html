@@ -1,1 +1,37 @@
-<p>product-details works!</p>
+<div class="product-details-page">
+  <div class="product" *ngIf="product() as product">
+    <div class="main-section px-5 py-8 flex flex-column lg:flex-row w-full justify-content-around align-items-center">
+      <div class="main-info">
+        <h1 class="text-6xl">{{product.title}}</h1>
+      </div>
+      <div class="info">
+        <div class="price-section mb-3">
+          <span class="text-3xl">
+            {{product.price}} {{currency()}} for {{product.quantity}} {{QuantityType[product.quantityType]}}
+          </span>
+          <div class="adding-to-cart mt-3 flex gap-2">
+            <p-inputNumber showButtons [min]="1" [(ngModel)]="cartQuantity" name="cartQuantity"></p-inputNumber>
+            <p-button severity="contrast" label="Add to cart" (onClick)="addToCart()"/>
+          </div>
+        </div>
+        <span class="font-italic text-xs">#{{product.id}}</span>
+      </div>
+    </div>
+    <p-divider/>
+    <div class="description px-5 py-3">
+      <h3>Description</h3>
+      @if (product.description) {
+        <p>{{product.description}}</p>
+      }
+    </div>
+    <p-divider/>
+    <div class="info-section px-5 py-3">
+      <h3>Information</h3>
+      @for(info of product.information; track info.id) {
+        <h4>{{info.title}}</h4>
+        <p>{{info.description}}</p>
+      }
+    </div>
+  </div>
+</div>
+

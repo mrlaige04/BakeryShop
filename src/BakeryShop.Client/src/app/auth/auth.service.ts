@@ -35,18 +35,15 @@ export class AuthService {
     const fromStorage = localStorage.getItem(this.TokenStorageKey)
 
     if (!fromStorage) {
-      this.logout()
       return false;
     }
 
     const parsed = <AccessTokenModel>JSON.parse(fromStorage)
     if (!parsed) {
-      this.logout()
       return false;
     }
 
     if (new Date() >= parsed.expiresAt) {
-      this.logout();
       return false;
     }
 

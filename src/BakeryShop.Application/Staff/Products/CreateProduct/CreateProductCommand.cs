@@ -1,11 +1,12 @@
 ﻿using BakeryShop.Application.Common.Abstractions;
+using BakeryShop.Application.Products;
 using BakeryShop.Domain.Products;
 
-namespace BakeryShop.Application.Products.CreateProduct;
+namespace BakeryShop.Application.Staff.Products.CreateProduct;
 public record CreateProductCommand(
-    string Title, 
+    string Title,
     decimal Price,
-    Guid CurrencyId,
-    double Quantity, 
+    double Quantity,
     QuantityType QuantityType,
+    ICollection<InformationDto>? Information,
     string? Description) : ICommand<Guid>;

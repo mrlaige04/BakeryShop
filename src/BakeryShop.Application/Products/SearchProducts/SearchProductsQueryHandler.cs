@@ -24,7 +24,6 @@ internal sealed class SearchProductsQueryHandler(IProductRepository productRepos
             return Result.Error("PageSize cannot be a negative number");
 
         var result = await products
-            .Include(p => p.Currency)
             .Select(product => (ProductDto)product)
             .PaginatedListAsync(pageNumber, pageSize);
 

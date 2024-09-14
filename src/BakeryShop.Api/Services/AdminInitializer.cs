@@ -17,6 +17,10 @@ public class AdminInitializer(UserManager<User> userManager, RoleManager<Identit
         if (!await roleManager.RoleExistsAsync(Policy.Admin))
             await roleManager.CreateAsync(new IdentityRole<Guid>(Policy.Admin));
 
+        if (await userManager.FindByEmailAsync(email) is { } user &&
+            await userManager.IsInRoleAsync(user, Policy.Admin))
+            return;
+
         var defaultAdmin = User.Create(email);
 
         var adminCreationResult = await userManager.CreateAsync(defaultAdmin, password);

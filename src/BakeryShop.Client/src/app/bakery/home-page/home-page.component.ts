@@ -34,11 +34,12 @@ export class HomePageComponent implements OnInit, OnDestroy{
 
   private subscriptions: Subscription[] = []
 
+  currency = this.bakery.defaultCurrency;
+
   filterState = signal<SearchFilter>({})
 
   pageSize = signal<number>(10)
   pageNumber = signal<number>(1)
-
   skipRows = computed(() => (this.pageNumber() - 1) * this.pageSize())
 
   products = signal<PaginatedList<ProductModel> | null>(null)
@@ -84,7 +85,7 @@ export class HomePageComponent implements OnInit, OnDestroy{
 }
 
 
-interface SearchFilter {
+export interface SearchFilter {
   query?: string | undefined;
   priceFrom?: number | undefined;
   priceTo?: number | undefined;

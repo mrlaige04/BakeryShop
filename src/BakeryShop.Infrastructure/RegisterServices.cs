@@ -3,7 +3,6 @@ using BakeryShop.Domain.Consts;
 using BakeryShop.Domain.Orders;
 using BakeryShop.Domain.Products;
 using BakeryShop.Domain.Users;
-using BakeryShop.Infrastructure.Currencies;
 using BakeryShop.Infrastructure.Data;
 using BakeryShop.Infrastructure.Data.Interceptors;
 using BakeryShop.Infrastructure.Identity;
@@ -15,7 +14,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.IdentityModel.Tokens.Jwt;
 
 namespace BakeryShop.Infrastructure;
 
@@ -46,7 +44,6 @@ public static class RegisterServices
 
         services.AddScoped<IProductRepository, ProductRepository>();
         services.AddScoped<IOrderRepository, OrderRepository>();
-        services.AddScoped<ICurrencyRepository, CurrencyRepository>();
     }
 
     private static void AddAppIdentity(this IServiceCollection services, IConfiguration configuration)

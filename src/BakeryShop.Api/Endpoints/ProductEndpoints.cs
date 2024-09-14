@@ -1,7 +1,7 @@
 ﻿using Ardalis.Result.AspNetCore;
-using BakeryShop.Application.Products.CreateProduct;
+using BakeryShop.Application.Products.GetProductByIdQuery;
 using BakeryShop.Application.Products.SearchProducts;
-using BakeryShop.Domain.Consts;
+using BakeryShop.Application.Staff.Products.CreateProduct;
 using MediatR;
 
 namespace BakeryShop.Api.Endpoints;
@@ -21,16 +21,10 @@ public static class ProductEndpoints
             return result.ToMinimalApiResult();
         });
 
+        productsGroup.MapGet("{id:guid}", async (Guid id, ISender sender) => {
+            var query = new GetProductByIdQuery(id);
+            var result = await sender.Send(query);
 
-
-
-
-        var staffProductsGroup = productsGroup;
-            //.RequireAuthorization(Policy.Admin);
-
-        staffProductsGroup.MapPost("", async (CreateProductCommand command, ISender sender) =>
-        {
-            var result = await sender.Send(command);
             return result.ToMinimalApiResult();
         });
     }

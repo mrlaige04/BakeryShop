@@ -41,7 +41,7 @@
               <p>{{ product.description | truncate:50 }}...</p>
             }
             <div class="price font-italic text-gray-500">
-              {{ product.price }}{{ product.currency.code }}
+              {{ product.price }} {{currency()}}
               for {{product.quantity}} {{QuantityType[product.quantityType]}}
             </div>
           </div>

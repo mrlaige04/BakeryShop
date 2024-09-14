@@ -13,7 +13,7 @@ public sealed class ApplicationDbContext : IdentityDbContext<User, IdentityRole<
     public DbSet<Order> Orders { get; set; } = null!;
     public DbSet<Product> Products { get; set; } = null!;
     public DbSet<Cart> Carts { get; set; } = null!;
-    public DbSet<Currency> Currencies { get; set; } = null!;
+    public DbSet<Information> Informations { get; set; } = null!;
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {

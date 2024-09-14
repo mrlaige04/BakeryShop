@@ -8,10 +8,10 @@ public class ProductDto
     public string? Description { get; set; }
     public decimal Price { get; set; }
 
-    public Currency Currency { get; set; } = null!;
-
     public double Quantity { get; set; }
     public QuantityType QuantityType { get; set; }
+
+    public ICollection<InformationDto>? Information { get; set; } = [];
 
     public static implicit operator ProductDto(Product product) => new()
     {
@@ -21,6 +21,6 @@ public class ProductDto
         Price = product.Price,
         Quantity = product.Quantity,
         QuantityType = product.QuantityType,
-        Currency = product.Currency
+        Information = product.Information?.Select(i => new InformationDto(i.Id, i.Title, i.Description)).ToList()
     };
 }

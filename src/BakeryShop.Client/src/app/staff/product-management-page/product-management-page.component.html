@@ -1,1 +1,80 @@
-<p>product-management-page works!</p>
+<div class="products-page p-1">
+  <h2>Products</h2>
+  <div class="list" *ngIf="products() as products">
+    <p-table
+      scrollable
+      [value]="products.items">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>Title</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Quantity Type</th>
+          <th><p-button icon="pi pi-plus" (onClick)="openCreateDialog()" rounded severity="success"></p-button></th>
+        </tr>
+        <tr>
+          <th>
+            <input pInputText
+                   class="w-12rem"
+                   placeholder="Search..."
+                   (input)="search()"
+                   [(ngModel)]="filterState().query">
+          </th>
+          <th>
+            <input (input)="search()" type="number" pInputText class="w-7rem" placeholder="min" [(ngModel)]="filterState().priceFrom">
+            <input (input)="search()" type="number" pInputText class="w-7rem" placeholder="max" [(ngModel)]="filterState().priceTo">
+          </th>
+          <th>
+            <input (input)="search()" type="number" pInputText class="w-7rem" placeholder="min" [(ngModel)]="filterState().quantityFrom">
+            <input (input)="search()" type="number" pInputText class="w-7rem" placeholder="max" [(ngModel)]="filterState().quantityTo">
+          </th>
+          <th>
+            <p-dropdown
+              [options]="quantityTypes"
+              optionLabel="value"
+              optionValue="key"
+              (onChange)="search()"
+              [(ngModel)]="filterState().quantityType"/>
+          </th>
+          <th>
+            <p-button icon="pi pi-filter-slash" outlined (onClick)="clearFilters()"/>
+          </th>
+        </tr>
+
+      </ng-template>
+      <ng-template pTemplate="body" let-product class="h-20rem">
+        <tr>
+          <td>{{product.title}}</td>
+          <td>{{product.price}}</td>
+          <td>{{product.quantity}}</td>
+          <td>{{QuantityType[product.quantityType]}}</td>
+          <td>
+            <p-button
+              icon="pi pi-pencil"
+              class="mr-2"
+              [rounded]="true"
+              [outlined]="true"
+              severity="success"
+              (onClick)="editProduct(product)"
+              />
+            <p-button
+              icon="pi pi-trash"
+              severity="danger"
+              [rounded]="true"
+              [outlined]="true"
+              (onClick)="deleteProduct(product)"
+              />
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+    <p-paginator
+      [rows]="pageSize()"
+      [rowsPerPageOptions]="[5,10,15,20]"
+      [totalRecords]="products.totalCount"
+      (onPageChange)="onPageChange($event)"
+    ></p-paginator>
+  </div>
+</div>
+
+<p-confirmDialog/>

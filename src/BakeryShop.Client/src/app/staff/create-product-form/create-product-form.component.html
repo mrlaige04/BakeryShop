@@ -1,0 +1,57 @@
+<form [formGroup]="productForm" (ngSubmit)="submit()">
+  <div class="fieldset flex flex-column">
+    <div class="main-part flex lg:gap-4 flex-column lg:flex-row">
+      <div class="first-section">
+        <div class="field title">
+          <label for="title">Title</label>
+          <input type="text" pInputText id="title" formControlName="title">
+        </div>
+        <div class="field price">
+          <label for="price">Price</label>
+          <p-inputNumber id="price" [maxFractionDigits]="5" formControlName="price"/>
+        </div>
+      </div>
+      <div class="second-section">
+        <div class="field quantity">
+          <label for="quantity">Quantity</label>
+          <p-inputNumber id="quantity" [maxFractionDigits]="5" formControlName="quantity"/>
+        </div>
+        <div class="field quantityType">
+          <label for="quantityType">Quantity Type</label>
+          <p-dropdown
+            [overlayOptions]="overlay"
+            [options]="quantityTypes"
+            optionLabel="value"
+            optionValue="key"
+            id="quantityType"
+            formControlName="quantityType"
+          />
+        </div>
+        <div class="field description">
+          <label for="description">Description</label>
+          <textarea pInputTextarea id="description" formControlName="description"></textarea>
+        </div>
+      </div>
+    </div>
+    <p-divider/>
+    <div class="info-part mb-5" formArrayName="information">
+      <h3>Information</h3>
+      <p-button icon="pi pi-plus" class="w-full" (onClick)="addInfo()" label="Add new"/>
+      <div class="info-list">
+        @for(control of informationArray.controls; let i = $index; track i;) {
+          <div class="info-block flex flex-column gap-2 mt-4" [formGroupName]="i">
+            <div class="flex justify-content-between gap-2">
+              <input pInputText type="text" formControlName="title" placeholder="Title" class="spacer">
+              <p-button icon="pi pi-trash" (onClick)="removeInfo(i)" severity="danger"/>
+            </div>
+
+            <textarea pInputTextarea formControlName="description" placeholder="Description"></textarea>
+          </div>
+
+          <p-divider/>
+        }
+      </div>
+    </div>
+  </div>
+  <p-button label="Save" type="submit"/>
+</form>

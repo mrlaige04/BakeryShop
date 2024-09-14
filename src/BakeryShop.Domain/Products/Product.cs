@@ -9,29 +9,60 @@ public class Product : Entity
     
     public string? Description { get; private set; }
 
-    public Currency Currency { get; private set; } = null!;
-    public Guid CurrencyId { get; private set; }
-
     public double Quantity { get; private set; }
     public QuantityType QuantityType { get; private set; }
 
+    public ICollection<Information> Information { get; private set; } = [];
+
     private Product(){ }
-    private Product(string title, decimal price, string? description, Currency currency, double quantity, QuantityType quantityType)
+    private Product(
+        string title, 
+        decimal price, 
+        string? description,
+        double quantity, 
+        QuantityType quantityType)
     {
         Title = title;
         Description = description;
         Price = price;
-        Currency = currency;
         Quantity = quantity;
         QuantityType = quantityType;
+    }
+
+    public void Update(
+        string title, 
+        decimal price, 
+        string? description,
+        double quantity,
+        QuantityType quantityType,
+        ICollection<Information> information)
+    {
+        Title = title;
+        Description = description;
+        Price = price;
+        Quantity = quantity;
+        QuantityType = quantityType;
+
+        ClearInformation();
+        AddInformationRange(information);
+    }
+
+    public void AddInformation(Information information) => Information.Add(information);
+    public void RemoveInformation(Information information) => Information.Remove(information);
+    public void ClearInformation() => Information.Clear();
+    private void AddInformationRange(ICollection<Information> information)
+    {
+        foreach (var info in information)
+        {
+            AddInformation(info);
+        }
     }
 
     public static Product Create(
         string title, 
         decimal price, 
         string? description, 
-        Currency currency, 
         double quantity,
         QuantityType quantityType)
-        => new(title, price, description, currency, quantity, quantityType);
+        => new(title, price, description, quantity, quantityType);
 }

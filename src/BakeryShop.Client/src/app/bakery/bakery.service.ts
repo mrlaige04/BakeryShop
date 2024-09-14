@@ -1,9 +1,10 @@
-import {Inject, inject, Injectable} from '@angular/core';
+import {Inject, inject, Injectable, signal} from '@angular/core';
 import {HttpClient, HttpParams} from "@angular/common/http";
 import {ApiConfig} from "../config/apiConfig";
 import {PaginatedList} from "../models/paginated-list";
 import {ProductModel} from "./models/product.model";
 import {SearchProductsQuery} from "./requests/SearchProductsQuery";
+import {Guid} from "guid-typescript";
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +12,8 @@ import {SearchProductsQuery} from "./requests/SearchProductsQuery";
 export class BakeryService {
   private http = inject(HttpClient)
   private readonly baseUrl: string;
+
+  defaultCurrency = signal('UAH')
 
   constructor(@Inject('API_CONFIG') private apiConfig: ApiConfig) {
     this.baseUrl = apiConfig.apiUrl;
@@ -26,7 +29,12 @@ export class BakeryService {
     params = query.priceFrom ? params.set('priceFrom', query.priceFrom) : params;
     params = query.priceTo ? params.set('priceTo', query.priceTo) : params;
 
-
     return this.http.get<PaginatedList<ProductModel>>(url, { params })
+  }
+
+  getProduct(id: Guid) {
+    const url = this.baseUrl + '/products/' + id;
+
+    return this.http.get<ProductModel>(url)
   }
 }
