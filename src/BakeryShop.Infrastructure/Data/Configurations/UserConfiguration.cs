@@ -13,7 +13,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
 
         builder.HasOne(u => u.Cart)
             .WithOne()
-            .HasForeignKey<User>(u => u.CartId)
+            .HasForeignKey<Cart>(c => c.OwnerId)
             .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasMany<Order>()

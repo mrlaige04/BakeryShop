@@ -38,13 +38,16 @@ var apiGroup = app.MapGroup("api");
 
 apiGroup.MapUsers();
 apiGroup.MapProducts();
-
+apiGroup.MapCarts();
 apiGroup.MapStaff();
 
-apiGroup.MapPost("migrate", async (ApplicationDbContext dbContext) =>
+if (app.Environment.IsDevelopment())
 {
-    await dbContext.Database.MigrateAsync();
-    await dbContext.SaveChangesAsync();
-});
+    apiGroup.MapPost("migrate", async (ApplicationDbContext dbContext) =>
+    {
+        await dbContext.Database.MigrateAsync();
+        await dbContext.SaveChangesAsync();
+    });
+}
 
 app.Run();

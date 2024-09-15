@@ -121,7 +121,7 @@ export class EditProductFormComponent extends BaseComponent implements OnInit {
 
     const editSubscription = this.staff.updateProduct(this.id, model)
       .subscribe({
-        next: (dto) => this.dialogRef.close()
+        next: (_) => this.dialogRef.close()
       })
 
     this.addSubscription(editSubscription)

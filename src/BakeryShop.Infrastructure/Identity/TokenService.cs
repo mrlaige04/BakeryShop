@@ -24,7 +24,7 @@ public class TokenService(IOptions<JwtOptions> jwtOptions, IUserClaimsPrincipalF
         var claimsIdentity = new ClaimsIdentity(claims.Claims);
 
         var now = DateTime.Now;
-        var expires = now.AddMicroseconds(options.ExpiresInMinutes);
+        var expires = now.AddMinutes(options.ExpiresInMinutes);
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = claimsIdentity,

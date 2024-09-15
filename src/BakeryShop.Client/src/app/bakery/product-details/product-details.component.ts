@@ -13,6 +13,12 @@ import {NgForOf, NgIf} from "@angular/common";
 import {DividerModule} from "primeng/divider";
 import {CartService} from "../../cart/cart.service";
 import {FormsModule} from "@angular/forms";
+import {AuthService} from "../../auth/auth.service";
+import {BaseComponent} from "../../layout/base/base.component";
+import {DialogService} from "primeng/dynamicdialog";
+import {ConfirmationService, MessageService} from "primeng/api";
+import {NotificationService} from "../../utils/services/notification.service";
+
 
 @Component({
   selector: 'bs-product-details',
@@ -29,12 +35,16 @@ import {FormsModule} from "@angular/forms";
     DividerModule,
     FormsModule
   ],
+  providers: [DialogService, ConfirmationService, NotificationService, MessageService],
   templateUrl: './product-details.component.html',
   styleUrl: './product-details.component.scss'
 })
-export class ProductDetailsComponent {
+export class ProductDetailsComponent extends BaseComponent {
   private activatedRoute = inject(ActivatedRoute);
   private bakery = inject(BakeryService)
+  private auth = inject(AuthService)
+
+  isAuthenticated = this.auth.isAuthenticated;
 
   currency = this.bakery.defaultCurrency;
 
@@ -49,6 +59,11 @@ export class ProductDetailsComponent {
   cartQuantity = signal<number>(0)
 
   addToCart() {
-    this.cart.addToCart(this.product()!, this.cartQuantity())
+    const addToCartSubscription = this.cart.addToCart(this.product()!, this.cartQuantity())
+      .subscribe({
+        next: () => this.notification.success('OK', 'Product added')
+      })
+
+    this.addSubscription(addToCartSubscription)
   }
 }

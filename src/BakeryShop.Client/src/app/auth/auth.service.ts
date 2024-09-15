@@ -43,13 +43,19 @@ export class AuthService {
       return false;
     }
 
-    if (new Date() >= parsed.expiresAt) {
+    if (this.isTokenExpired(parsed))
+    {
       return false;
     }
 
     this._authToken.set(parsed)
 
     return true;
+  }
+
+  private isTokenExpired(token: AccessTokenModel) {
+    const expirationDate = new Date(token.expiresAt);
+    return expirationDate <= new Date();
   }
 
   private initializeAdminRulesIfExists(): boolean {

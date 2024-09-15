@@ -3,6 +3,7 @@ using BakeryShop.Domain.Consts;
 using BakeryShop.Domain.Orders;
 using BakeryShop.Domain.Products;
 using BakeryShop.Domain.Users;
+using BakeryShop.Infrastructure.Carts;
 using BakeryShop.Infrastructure.Data;
 using BakeryShop.Infrastructure.Data.Interceptors;
 using BakeryShop.Infrastructure.Identity;
@@ -44,6 +45,7 @@ public static class RegisterServices
 
         services.AddScoped<IProductRepository, ProductRepository>();
         services.AddScoped<IOrderRepository, OrderRepository>();
+        services.AddScoped<ICartRepository, CartRepository>();
     }
 
     private static void AddAppIdentity(this IServiceCollection services, IConfiguration configuration)

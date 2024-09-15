@@ -10,7 +10,7 @@ public interface IProductRepository
 
     Task<Guid> InsertAsync(Product product, CancellationToken cancellationToken = default);
 
-    Task DeleteAsync(Product product , CancellationToken cancellationToken = default);
+    Task DeleteAsync(Product product, CancellationToken cancellationToken = default);
 
     Task Update(Product product, CancellationToken cancellationToken = default);
 }

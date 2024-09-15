@@ -1,1 +1,43 @@
-<p>cart-page works!</p>
+<div class="cart-page">
+  <div class="list mt-2">
+    <p-card>
+      <ng-template pTemplate="content">
+        <h3>Cart</h3>
+        <div class="list">
+          @defer (when items()) {
+            @for(item of items(); track item.product.id) {
+              <div class="item flex flex-row justify-content-between bg-gray-50 p-3 mb-3 border-round">
+                <div class="info flex flex-column gap-3">
+                  <span class="font-bold">{{item.product.title}}</span>
+                  <span>Quantity: {{item.quantity}}</span>
+                </div>
+
+                <div class="quantity-price flex flex-row gap-3 align-items-center">
+                  <span class="price font-bold">{{ item.product.price * item.quantity }} {{ currency() }}</span>
+                  <div class="quantity flex flex-column gap-1">
+                    <p-button outlined icon="pi pi-angle-up" (onClick)="addItemQuantity(item.product)"/>
+                    <p-button outlined icon="pi pi-angle-down" (onClick)="removeItem(item.product.id)"/>
+                  </div>
+                  <p-button icon="pi pi-trash" severity="danger" (onClick)="removeFromCart(item.product.id)"/>
+                </div>
+              </div>
+            }
+          }
+        </div>
+      </ng-template>
+    </p-card>
+  </div>
+  <div class="summary mt-3">
+    <p-card>
+      <ng-template pTemplate="content">
+        <div class="content flex flex-column lg:flex-row align-items-center gap-3 lg:gap-0 justify-content-between w-full font-bold">
+          <span class="item-count">{{ items().length }} items</span>
+          <div class="flex align-items-center gap-3">
+            <span class="total-price">Total price: {{ totalPrice() }} {{ currency() }}</span>
+            <p-button severity="contrast" label="Create order"/>
+          </div>
+        </div>
+      </ng-template>
+    </p-card>
+  </div>
+</div>

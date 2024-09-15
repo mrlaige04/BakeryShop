@@ -7,7 +7,7 @@ export const onlyAdminGuard: CanActivateFn = async (route, state) => {
   const router = inject(Router);
 
   if (!auth.isAuthenticated() || !auth.isAdmin()) {
-    await router.navigate(['/login']);
+    await router.navigate(['/no-access']);
     return false;
   }
 

@@ -9,29 +9,39 @@
           <span class="text-3xl">
             {{product.price}} {{currency()}} for {{product.quantity}} {{QuantityType[product.quantityType]}}
           </span>
-          <div class="adding-to-cart mt-3 flex gap-2">
+          <div class="adding-to-cart mt-3 flex gap-2" *ngIf="isAuthenticated(); else addToCartError">
             <p-inputNumber showButtons [min]="1" [(ngModel)]="cartQuantity" name="cartQuantity"></p-inputNumber>
             <p-button severity="contrast" label="Add to cart" (onClick)="addToCart()"/>
           </div>
+          <ng-template #addToCartError>
+            To add this item to cart - login
+          </ng-template>
         </div>
         <span class="font-italic text-xs">#{{product.id}}</span>
       </div>
     </div>
     <p-divider/>
-    <div class="description px-5 py-3">
-      <h3>Description</h3>
-      @if (product.description) {
+
+    @if (product.description) {
+      <div class="description px-5 py-3">
+        <h3>Description</h3>
         <p>{{product.description}}</p>
-      }
-    </div>
-    <p-divider/>
-    <div class="info-section px-5 py-3">
-      <h3>Information</h3>
-      @for(info of product.information; track info.id) {
-        <h4>{{info.title}}</h4>
-        <p>{{info.description}}</p>
-      }
-    </div>
+      </div>
+
+      <p-divider/>
+    }
+
+
+
+    @if (product.information && product.information.length > 0) {
+      <div class="info-section px-5 py-3">
+        <h3>Information</h3>
+        @for(info of product.information; track info.id) {
+          <h4>{{info.title}}</h4>
+          <p>{{info.description}}</p>
+        }
+      </div>
+    }
   </div>
 </div>
 

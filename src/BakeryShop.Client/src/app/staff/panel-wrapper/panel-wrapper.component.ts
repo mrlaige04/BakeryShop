@@ -19,7 +19,5 @@ export class PanelWrapperComponent {
   items: MenuItem[] = [
     { label: 'Products', route: '/admin/products' },
     { label: 'Orders', route: '/admin/orders' },
-    { label: 'Users', route: '/admin/users' },
-    { label: 'Currencies', route: '/admin/currencies' },
   ]
 }
