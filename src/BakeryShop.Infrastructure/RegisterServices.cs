@@ -32,16 +32,22 @@ public static class RegisterServices
     private static void AddDatabase(this IServiceCollection services, IConfiguration configuration)
     {
         var connectionString = configuration.GetConnectionString("DefaultConnection");
-        
         ArgumentException.ThrowIfNullOrEmpty(connectionString, "Connection string must be specified.");
 
+        var password = configuration["MSSQL_SA_PASSWORD"];
+        ArgumentException.ThrowIfNullOrEmpty(password, "Database password must be specified.");
+        
+        var fullConnectionString = string.Format(connectionString, password);
+
+        Console.WriteLine(fullConnectionString);
+        
         services.AddScoped<AuditableEntityInterceptor>();
 
         services.AddDbContext<ApplicationDbContext>((sp, opt) =>
         {
             opt.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
 
-            opt.UseSqlServer(connectionString);
+            opt.UseSqlServer(fullConnectionString);
         });
 
         services.AddScoped<IProductRepository, ProductRepository>();

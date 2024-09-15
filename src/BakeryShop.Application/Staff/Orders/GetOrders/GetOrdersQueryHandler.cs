@@ -6,16 +6,19 @@ using BakeryShop.Application.Identity;
 using BakeryShop.Application.Users.Orders;
 using BakeryShop.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace BakeryShop.Application.Staff.Orders.GetOrders;
 internal sealed class GetOrdersQueryHandler(
     IOrderRepository orderRepository,
-    ICurrentUser currentUser
-    )
+    ICurrentUser currentUser,
+    ILogger<GetOrdersQueryHandler> logger)
     : IQueryHandler<GetOrdersQuery, PaginatedList<FullOrderDto>>
 {
     public async Task<Result<PaginatedList<FullOrderDto>>> Handle(GetOrdersQuery request, CancellationToken cancellationToken)
     {
+        logger.LogInformation("GetOrdersQuery: Started.");
+
         var orders = orderRepository.Source
             .Include(o => o.Items)
                 .ThenInclude(i => i.Product)
@@ -24,6 +27,7 @@ internal sealed class GetOrdersQueryHandler(
 
         if (!Guid.TryParse(currentUser.Id?.ToString(), out var userId))
         {
+            logger.LogInformation("GetOrdersQuery: Failed. User unauthorized");
             return Result.Unauthorized();
         }
 
@@ -35,10 +39,17 @@ internal sealed class GetOrdersQueryHandler(
         var pageSize = ParseIntOrDefault(request.PageSize?.ToString(), 10);
 
         if (pageNumber < 0)
+        {
+            logger.LogInformation("GetOrdersQuery: Error. Invalid page number");
             return Result.Error("PageNumber cannot be a negative number");
+        }
+            
         if (pageSize < 0)
+        {
+            logger.LogInformation("GetOrdersQuery: Error. Invalid page size");
             return Result.Error("PageSize cannot be a negative number");
-
+        }
+            
         var result = await orders
             .Select(order =>
                 new FullOrderDto()
@@ -55,6 +66,8 @@ internal sealed class GetOrdersQueryHandler(
                 }
             )
             .PaginatedListAsync(pageNumber, pageSize);
+
+        logger.LogInformation("GetOrdersQuery: Success.");
 
         return result;
     }

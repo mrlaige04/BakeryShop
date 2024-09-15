@@ -5,16 +5,27 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>5ed6c090-7cdd-4c6f-9642-0aa676c69f56</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Ardalis.Result.AspNetCore" Version="10.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
+        <PackageReference Include="Serilog" Version="4.0.1" />
+        <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.2" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\BakeryShop.Infrastructure\BakeryShop.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>
