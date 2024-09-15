@@ -1,0 +1,27 @@
+@import "primeicons/primeicons.css";
+
+html, body {
+  height: 100%;
+
+}
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+
+
+:root {
+  .p-card, .p-card-content, .p-card-body {
+    height: 100%;
+  }
+
+  .p-dropdown {
+    width: 100% !important;
+  }
+
+  .p-orderlist-controls {
+    display: none;
+  }
+}

@@ -1,0 +1,71 @@
+<div class="orders-page p-1">
+  <h2>Orders</h2>
+  <div class="list" *ngIf="orders() as orders">
+    <p-table scrollable
+             dataKey="id"
+             [value]="orders.items">
+      <ng-template pTemplate="header">
+        <tr>
+          <th style="width: 6rem;"></th>
+          <th>Items count</th>
+          <th>Status</th>
+          <th>Delivery Info</th>
+          <th>Additional info</th>
+          <th>Total price</th>
+          <th></th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-order let-expanded="expanded">
+        <tr>
+          <td>
+            <p-button type="button"
+                      [pRowToggler]="order"
+                      [text]="true"
+                      [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+            />
+          </td>
+          <td>{{order.items.length}}</td>
+          <td>{{ OrderStatus[order.status] }}</td>
+          <td>
+            City: {{order.deliveryInfo.city}}<br>
+            Street: {{ order.deliveryInfo.street }} <br>
+            HouseNumber: {{ order.deliveryInfo.houseNumber }}
+          </td>
+          <td>{{order.additionalInfo ?? '-'}}</td>
+          <td>{{ calculateTotalOrderPrice(order) }}</td>
+          <td>
+            <p-button icon="pi pi-pencil" outlined rounded (onClick)="openEditOrder(order.id)"/>
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="rowexpansion" let-orderEntity>
+        <tr class="bg-gray-100">
+          <td colspan="6">
+            <p-table [value]="orderEntity.items" dataKey="id">
+              <ng-template pTemplate="header">
+                <tr>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Total price</th>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="body" let-orderItem>
+                <tr>
+                  <td>{{orderItem.product.title}}</td>
+                  <td>{{orderItem.quantity}}</td>
+                  <td>{{calculateOrderItemTotalPrice(orderItem)}}</td>
+                </tr>
+              </ng-template>
+            </p-table>
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+    <p-paginator
+      [rows]="pageSize()"
+      [rowsPerPageOptions]="[5,10,15,20]"
+      [totalRecords]="orders.totalCount"
+      (onPageChange)="onPageChange($event)"
+    />
+  </div>
+</div>

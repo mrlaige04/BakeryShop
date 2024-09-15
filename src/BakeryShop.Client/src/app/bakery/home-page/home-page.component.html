@@ -1,0 +1,67 @@
+<div class="home-page">
+  <div class="home-page-head">
+    <h2>Welcome to BakeryShop</h2>
+  </div>
+  <div class="search-params"></div>
+  <div class="product-list flex flex-column gap-5 " *ngIf="products() as products">
+    <div class="filter">
+      <p-card>
+        <div class="filter-blocks flex flex-column gap-5 lg:flex-row justify-content-between">
+          <div class="first-block">
+            <div class="title">
+              <input pInputText
+                     placeholder="Search"
+                     class="w-full"
+                     [(ngModel)]="filterState().query">
+            </div>
+          </div>
+          <div class="second-block flex gap-3 flex-column lg:flex-row">
+            <input type="number"
+                   pInputText
+                   placeholder="Price from"
+                   [(ngModel)]="filterState().priceFrom"
+            >
+            <input type="number"
+                   pInputText
+                   placeholder="Price to"
+                   [(ngModel)]="filterState().priceTo"
+            >
+
+            <p-button (onClick)="onFilter()">Search</p-button>
+          </div>
+        </div>
+      </p-card>
+    </div>
+
+    <div class="products-cards grid">
+      @for(product of products.items; track product.id) {
+        <p-card [header]="product.title" class="h-100">
+          <div class="content m-0">
+            @if (product.description) {
+              <p>{{ product.description | truncate:50 }}...</p>
+            }
+            <div class="price font-italic text-gray-500">
+              {{ product.price }} {{currency()}}
+              for {{product.quantity}} {{QuantityType[product.quantityType]}}
+            </div>
+          </div>
+          <ng-template pTemplate="footer">
+            <a routerLink="/products/{{product.id}}" class="p-button font-bold">Visit</a>
+          </ng-template>
+        </p-card>
+      } @empty {
+        No data :(
+      }
+    </div>
+
+    <div class="pagination">
+      <p-paginator [rows]="pageSize()"
+                   [first]="skipRows()"
+                   [totalRecords]="products.totalCount"
+                   [rowsPerPageOptions]="[5, 10, 15, 20, 25]"
+                   (onPageChange)="onPageChange($event)"
+      >
+      </p-paginator>
+    </div>
+  </div>
+</div>
