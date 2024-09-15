@@ -40,6 +40,7 @@ apiGroup.MapUsers();
 apiGroup.MapProducts();
 apiGroup.MapCarts();
 apiGroup.MapStaff();
+apiGroup.MapOrders();
 
 if (app.Environment.IsDevelopment())
 {

@@ -6,6 +6,7 @@ import {onlyAdminGuard} from "./staff/only-admin.guard";
 import {CartPageComponent} from "./cart/cart-page/cart-page.component";
 import {onlyAuthedGuard} from "./auth/only-authed.guard";
 import {NoAccessComponent} from "./layout/no-access/no-access.component";
+import {OrderTrackingPageComponent} from "./orders/order-tracking-page/order-tracking-page.component";
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -13,5 +14,6 @@ export const routes: Routes = [
   { path: 'auth', loadChildren: () => import('./auth/auth.routes').then(a => a.routes) },
   { path: 'cart', component: CartPageComponent, canActivate: [onlyAuthedGuard], title: 'Cart' },
   { path: 'no-access', component: NoAccessComponent },
+  { path: 'orders', component: OrderTrackingPageComponent, canActivate: [onlyAuthedGuard] },
   { path: 'admin', component: PanelWrapperComponent, canActivate: [onlyAdminGuard], loadChildren: () => import('./staff/staff.routes').then(s => s.routes) }
 ];

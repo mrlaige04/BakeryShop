@@ -10,9 +10,14 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
     {
         builder.HasKey(o => o.Id);
 
-        builder.HasMany<OrderItem>()
+        builder.HasMany(o => o.Items)
             .WithOne(i => i.Order)
             .HasForeignKey(i => i.OrderId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.HasOne(o => o.DeliveryInfo)
+            .WithOne()
+            .HasForeignKey<DeliveryInfo>("OrderId")
             .OnDelete(DeleteBehavior.Cascade);
 
         builder.ToTable("Orders");

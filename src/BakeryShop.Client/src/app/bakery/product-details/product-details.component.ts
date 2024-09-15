@@ -18,6 +18,7 @@ import {BaseComponent} from "../../layout/base/base.component";
 import {DialogService} from "primeng/dynamicdialog";
 import {ConfirmationService, MessageService} from "primeng/api";
 import {NotificationService} from "../../utils/services/notification.service";
+import {TruncatePipe} from "../../utils/pipes/truncate.pipe";
 
 
 @Component({
@@ -33,7 +34,8 @@ import {NotificationService} from "../../utils/services/notification.service";
     NgIf,
     NgForOf,
     DividerModule,
-    FormsModule
+    FormsModule,
+    TruncatePipe
   ],
   providers: [DialogService, ConfirmationService, NotificationService, MessageService],
   templateUrl: './product-details.component.html',

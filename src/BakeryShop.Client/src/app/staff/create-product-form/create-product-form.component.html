@@ -5,16 +5,34 @@
         <div class="field title">
           <label for="title">Title</label>
           <input type="text" pInputText id="title" formControlName="title">
+          @if (triedToSubmit && productForm.get('title')?.hasError('required')) {
+            <small class="p-invalid text-red-500">Title is required</small>
+          }
+          @if (productForm.get('title')?.hasError('maxlength')) {
+            <small class="p-invalid text-red-500">Max length is 50</small>
+          }
         </div>
         <div class="field price">
           <label for="price">Price</label>
           <p-inputNumber id="price" [maxFractionDigits]="5" formControlName="price"/>
+          @if (triedToSubmit && productForm.get('price')?.hasError('required')) {
+            <small class="p-invalid text-red-500">Price is required</small>
+          }
+          @if (productForm.get('price')?.hasError('min')) {
+            <small class="p-invalid text-red-500">Minimum value is 0</small>
+          }
         </div>
       </div>
       <div class="second-section">
         <div class="field quantity">
           <label for="quantity">Quantity</label>
           <p-inputNumber id="quantity" [maxFractionDigits]="5" formControlName="quantity"/>
+          @if (triedToSubmit && productForm.get('quantity')?.hasError('required')) {
+            <small class="p-invalid text-red-500">Quantity is required</small>
+          }
+          @if (productForm.get('quantity')?.hasError('min')) {
+            <small class="p-invalid text-red-500">Minimum value is 0</small>
+          }
         </div>
         <div class="field quantityType">
           <label for="quantityType">Quantity Type</label>
@@ -26,6 +44,9 @@
             id="quantityType"
             formControlName="quantityType"
           />
+          @if (triedToSubmit && productForm.get('quantityType')?.hasError('required')) {
+            <small class="p-invalid text-red-500">Quantity type is required</small>
+          }
         </div>
         <div class="field description">
           <label for="description">Description</label>
@@ -38,7 +59,7 @@
       <h3>Information</h3>
       <p-button icon="pi pi-plus" class="w-full" (onClick)="addInfo()" label="Add new"/>
       <div class="info-list">
-        @for(control of informationArray.controls; let i = $index; track i;) {
+        @for(_ of informationArray.controls; let i = $index; track i;) {
           <div class="info-block flex flex-column gap-2 mt-4" [formGroupName]="i">
             <div class="flex justify-content-between gap-2">
               <input pInputText type="text" formControlName="title" placeholder="Title" class="spacer">
@@ -53,5 +74,5 @@
       </div>
     </div>
   </div>
-  <p-button label="Save" type="submit"/>
+  <p-button [disabled]="triedToSubmit && !productForm.valid" label="Save" type="submit"/>
 </form>

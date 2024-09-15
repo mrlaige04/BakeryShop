@@ -16,7 +16,7 @@
                   <span class="price font-bold">{{ item.product.price * item.quantity }} {{ currency() }}</span>
                   <div class="quantity flex flex-column gap-1">
                     <p-button outlined icon="pi pi-angle-up" (onClick)="addItemQuantity(item.product)"/>
-                    <p-button outlined icon="pi pi-angle-down" (onClick)="removeItem(item.product.id)"/>
+                    <p-button outlined icon="pi pi-angle-down" (onClick)="minusQuantity(item.product.id)"/>
                   </div>
                   <p-button icon="pi pi-trash" severity="danger" (onClick)="removeFromCart(item.product.id)"/>
                 </div>
@@ -34,7 +34,7 @@
           <span class="item-count">{{ items().length }} items</span>
           <div class="flex align-items-center gap-3">
             <span class="total-price">Total price: {{ totalPrice() }} {{ currency() }}</span>
-            <p-button severity="contrast" label="Create order"/>
+            <p-button [disabled]="items().length === 0" severity="contrast" label="Create order" (onClick)="createOrder()"/>
           </div>
         </div>
       </ng-template>

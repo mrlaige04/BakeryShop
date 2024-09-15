@@ -50,6 +50,14 @@
           <td>{{QuantityType[product.quantityType]}}</td>
           <td>
             <p-button
+              icon="pi pi-eye"
+              class="mr-2"
+              [rounded]="true"
+              [outlined]="true"
+              severity="info"
+              routerLink="/products/{{product.id}}"
+              />
+            <p-button
               icon="pi pi-pencil"
               class="mr-2"
               [rounded]="true"

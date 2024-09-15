@@ -10,6 +10,8 @@ import {BaseComponent} from "../../layout/base/base.component";
 import {DialogService} from "primeng/dynamicdialog";
 import {NotificationService} from "../../utils/services/notification.service";
 import {ConfirmationService} from "primeng/api";
+import {debounceTime} from "rxjs";
+import {CreateOrderFormComponent} from "../create-order-form/create-order-form.component";
 
 @Component({
   selector: 'bs-cart-page',
@@ -35,6 +37,7 @@ export class CartPageComponent extends BaseComponent{
 
   addItemQuantity(product: ProductModel) {
     const addToCartSubscription = this.cart.addToCart(product, 1)
+      .pipe(debounceTime(2000))
       .subscribe({
         next: () => this.notification.success('OK', 'Item added')
       })
@@ -42,16 +45,31 @@ export class CartPageComponent extends BaseComponent{
     this.addSubscription(addToCartSubscription)
   }
 
-  removeItem(id: Guid) {
-    this.cart.removeItem(id,1);
+  minusQuantity(id: Guid) {
+    const decreaseQuantitySubscription = this.cart.removeItem(id,1)
+      .pipe(debounceTime(2000))
+      .subscribe({
+        next: () => this.notification.success('OK')
+      });
+
+    this.addSubscription(decreaseQuantitySubscription)
   }
 
   removeFromCart(id: Guid) {
     const removeSubscription = this.cart.removeAllItem(id)
+      ?.pipe(debounceTime(2000))
       ?.subscribe({
         next: () => this.notification.success('OK', 'Item removed')
       });
 
     if (removeSubscription) this.addSubscription(removeSubscription)
+  }
+
+  createOrder() {
+    this.dialog.open<CreateOrderFormComponent>(CreateOrderFormComponent, {
+      modal: true,
+      header: 'Create Order',
+      style: { 'min-width': '40vw' }
+    })
   }
 }

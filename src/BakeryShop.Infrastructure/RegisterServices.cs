@@ -9,6 +9,7 @@ using BakeryShop.Infrastructure.Data.Interceptors;
 using BakeryShop.Infrastructure.Identity;
 using BakeryShop.Infrastructure.Orders;
 using BakeryShop.Infrastructure.Products;
+using BakeryShop.Infrastructure.Users;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -46,6 +47,7 @@ public static class RegisterServices
         services.AddScoped<IProductRepository, ProductRepository>();
         services.AddScoped<IOrderRepository, OrderRepository>();
         services.AddScoped<ICartRepository, CartRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
     }
 
     private static void AddAppIdentity(this IServiceCollection services, IConfiguration configuration)

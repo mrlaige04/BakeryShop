@@ -3,6 +3,9 @@
     @if (isAdmin()) {
       <p-button link routerLink="/admin" icon="pi pi-crown"/>
     }
+
+    <p-button link routerLink="/orders" icon="pi pi-list"/>
+
     <bs-topbar-cart></bs-topbar-cart>
 
     <p-button label="Logout" (onClick)="logout()"/>

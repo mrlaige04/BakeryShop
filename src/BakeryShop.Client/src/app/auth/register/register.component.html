@@ -11,13 +11,25 @@
         <div class="field flex flex-column gap-1">
           <label for="email">Email</label>
           <input type="email" id="email" pInputText formControlName="email">
+          @if (triedToSubmit && registerForm.get('email')?.hasError('required')) {
+            <small class="p-invalid text-red-500">Email is required</small>
+          }
+          @if (triedToSubmit && registerForm.get('email')?.hasError('email')) {
+            <small class="p-invalid text-red-500">Email is invalid</small>
+          }
         </div>
         <div class="field flex flex-column gap-1">
           <label for="password">Password</label>
           <input type="password" id="password" pInputText formControlName="password">
+          @if (triedToSubmit && registerForm.get('password')?.hasError('required')) {
+            <small class="p-invalid text-red-500">Password is required</small>
+          }
+          @if (triedToSubmit && registerForm.get('password')?.hasError('minlength')) {
+            <small class="p-invalid text-red-500">Password should have at least 5 characters</small>
+          }
         </div>
 
-        <p-button label="Submit" type="submit"/>
+        <p-button [disabled]="triedToSubmit && !registerForm.valid" label="Submit" type="submit"/>
       </form>
     </div>
 

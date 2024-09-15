@@ -9,21 +9,22 @@ import {Router, RouterLink} from "@angular/router";
 import {AuthService} from "../auth.service";
 import {LayoutService} from "../../layout/layout.service";
 import {Subscription} from "rxjs";
-import {AccessTokenModel} from "../models/access-token.model";
 import {UserModel} from "../models/user.model";
+import {JsonPipe} from "@angular/common";
 
 @Component({
   selector: 'bs-register',
   standalone: true,
-    imports: [
-        Button,
-        CardModule,
-        InputTextModule,
-        PaginatorModule,
-        PrimeTemplate,
-        ReactiveFormsModule,
-        RouterLink
-    ],
+  imports: [
+    Button,
+    CardModule,
+    InputTextModule,
+    PaginatorModule,
+    PrimeTemplate,
+    ReactiveFormsModule,
+    RouterLink,
+    JsonPipe
+  ],
   templateUrl: './register.component.html',
   styleUrl: './register.component.scss'
 })
@@ -33,6 +34,8 @@ export class RegisterComponent implements OnInit, OnDestroy{
   private layout = inject(LayoutService)
 
   private router = inject(Router)
+
+  triedToSubmit = false;
 
   private registerSubscription: Subscription | undefined;
 
@@ -46,17 +49,23 @@ export class RegisterComponent implements OnInit, OnDestroy{
     email: this.fb.control('', [Validators.required, Validators.email]),
     password: this.fb.control('', [
       Validators.required,
-      Validators.minLength(6)
+      Validators.minLength(5)
     ])
   })
 
   submit() {
-    this.registerSubscription = this.auth.register(this.registerForm.value).subscribe({
-      next: async (user: UserModel) => {
-        console.log(user)
-        await this.router.navigate(['/'])
-      }
-    })
+    this.triedToSubmit = true;
+    if (!this.registerForm.valid) {
+      return;
+    }
+    this.registerSubscription = this.auth.register(this.registerForm.value)
+      .subscribe({
+        next: async (user: UserModel) => {
+          console.log(user)
+          await this.router.navigate(['/'])
+        },
+        error: err => console.log(err.error.detail)
+      })
   }
 
   ngOnDestroy() {

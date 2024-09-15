@@ -3,28 +3,176 @@
   "WorkspaceRootPath": "D:\\work\\devsx\\BakeryShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\carts\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\carts\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\staff\\staffendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\staff\\staffendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\cart\\removefromcart\\removefromcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\cart\\removefromcart\\removefromcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\orderendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\orderendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\cartendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\cartendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\orders\\editorder\\editordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\orders\\editorder\\editordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\orders\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\orders\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\orders\\editorder\\editordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\orders\\editorder\\editordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\orders\\getorders\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\orders\\getorders\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\orders\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\orders\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\orders\\getorderbyid\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\orders\\getorderbyid\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\getorders\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\getorders\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\orders\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\orders\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\getorders\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\cancelorder\\cancelordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\cancelorder\\cancelordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\cancelorder\\cancelordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\cancelorder\\cancelordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\deliveryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\deliveryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\products\\searchproducts\\searchproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\products\\searchproducts\\searchproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\products\\getproductbyidquery\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\products\\getproductbyidquery\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\fullorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\fullorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\shortorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\shortorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\orders\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\orders\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\carts\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\carts\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\cart\\addtocart\\addtocartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\cart\\addtocart\\addtocartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\cart\\removefromcart\\removefromcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\cart\\removefromcart\\removefromcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\cartendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\cartendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\cart\\getitems\\getcartitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +183,8 @@
       "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\cart\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\products\\getproductbyidquery\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\products\\getproductbyidquery\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\cart\\addtocart\\addtocartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\cart\\addtocart\\addtocartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\cart\\removefromcart\\removefromcartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,36 +195,8 @@
       "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\orders\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\orders\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317CB512-7E13-4659-90A5-305E89BB5C34}|src\\BakeryShop.Domain\\BakeryShop.Domain.csproj|solutionrelative:src\\bakeryshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\cart\\getitems\\getcartitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\cart\\getitems\\getcartitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,28 +227,12 @@
       "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\staff\\staffendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\staff\\staffendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\products\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\products\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\staff\\products\\searchproducts\\searchproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\staff\\products\\searchproducts\\searchproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|solutionrelative:src\\bakeryshop.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.application\\products\\searchproducts\\searchproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB458D56-8E2A-4887-8122-9B05C6AA62CF}|src\\BakeryShop.Application\\BakeryShop.Application.csproj|solutionrelative:src\\bakeryshop.application\\products\\searchproducts\\searchproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF3C7BD-E893-4E36-AB90-5F11920067AE}|src\\BakeryShop.Infrastructure\\BakeryShop.Infrastructure.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.infrastructure\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,10 +291,6 @@
       "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\services\\admininitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|d:\\work\\devsx\\bakeryshop\\src\\bakeryshop.api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF7E6E1-7D20-497B-9382-FA0C583D38C5}|src\\BakeryShop.Api\\BakeryShop.Api.csproj|solutionrelative:src\\bakeryshop.api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\illia\\AppData\\Roaming\\Microsoft\\UserSecrets\\5ed6c090-7cdd-4c6f-9642-0aa676c69f56\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -229,7 +317,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -245,187 +333,211 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs*",
-              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs*",
+              "DocumentIndex": 2,
+              "Title": "EditOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommandHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:25:47.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CartItemDto.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:15:10.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RemoveFromCartCommandHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:41:23.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddToCartCommandHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T19:59:51.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\Cart.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\Cart.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\Cart.cs",
-              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\Cart.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:16:40.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetCartItemsQueryHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:15:56.685Z",
+              "WhenOpened": "2024-09-15T17:25:20.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\CartItem.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\CartItem.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\CartItem.cs",
-              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\CartItem.cs",
+              "Title": "EditOrderCommand.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommand.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommand.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Orders\\EditOrder\\EditOrderCommand.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:17:53.884Z",
+              "WhenOpened": "2024-09-15T17:24:29.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartEndpoints.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
-              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
+              "DocumentIndex": 3,
+              "Title": "GetOrderByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:27:43.266Z",
+              "WhenOpened": "2024-09-15T17:19:00.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Orders\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Orders\\OrderRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Orders\\OrderRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Orders\\OrderRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:35:00.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderEndpoints.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\OrderEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\OrderEndpoints.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\OrderEndpoints.cs",
+              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\OrderEndpoints.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:34:03.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffEndpoints.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs*",
+              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:08:58.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetOrdersQueryHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:53:37.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GetProductByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
+              "Title": "GetOrderByIdQuery.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQuery.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQuery.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQuery.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrderById\\GetOrderByIdQuery.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T12:23:53.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CartConfiguration.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
-              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:31:35.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddToCartCommand.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T19:58:58.742Z",
+              "WhenOpened": "2024-09-15T17:18:35.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Program.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Program.cs",
-              "RelativeToolTip": "src\\BakeryShop.Api\\Program.cs",
+              "Title": "GetOrdersQuery.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQuery.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T12:09:48.071Z",
+              "WhenOpened": "2024-09-15T15:21:23.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Orders\\IOrderRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\IOrderRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Orders\\IOrderRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:34:28.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetOrdersQuery.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Orders\\GetOrders\\GetOrdersQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:53:16.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
-              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
+              "Title": "GetOrdersQueryHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\GetOrders\\GetOrdersQueryHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:21:25.326Z",
+              "WhenOpened": "2024-09-15T15:33:15.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:32:38.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CancelOrderCommand.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommand.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommand.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:22:34.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "RemoveFromCartCommand.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
+              "Title": "CancelOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\CancelOrder\\CancelOrderCommandHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:40:35.513Z",
+              "WhenOpened": "2024-09-15T16:23:05.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\Order.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Orders\\Order.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\Order.cs",
-              "RelativeToolTip": "src\\BakeryShop.Domain\\Orders\\Order.cs",
+              "DocumentIndex": 15,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Orders\\OrderStatus.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\OrderStatus.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Orders\\OrderStatus.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:17:59.997Z",
+              "WhenOpened": "2024-09-15T16:21:50.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T16:05:42.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "OrderConfiguration.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\OrderConfiguration.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\OrderConfiguration.cs",
@@ -437,31 +549,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\Order.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Orders\\Order.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\Order.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Orders\\Order.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:20:27.906Z",
+              "WhenOpened": "2024-09-15T11:17:59.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RegisterServices.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\RegisterServices.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\RegisterServices.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\RegisterServices.cs",
-              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "DocumentIndex": 17,
+              "Title": "DeliveryInfo.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\DeliveryInfo.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Orders\\DeliveryInfo.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\DeliveryInfo.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Orders\\DeliveryInfo.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T20:12:50.183Z",
+              "WhenOpened": "2024-09-15T13:39:06.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
+              "Title": "SearchProductsQueryHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:57:05.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQueryHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:23:53.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FullOrderDto.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\FullOrderDto.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\FullOrderDto.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\FullOrderDto.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\FullOrderDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:22:20.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\OrderItemDto.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\OrderItemDto.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\OrderItemDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:31:33.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\Cart.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\Cart.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\Cart.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\Cart.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:16:40.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Program.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Program.cs",
+              "RelativeToolTip": "src\\BakeryShop.Api\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:09:48.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Users\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Users\\UserRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Users\\UserRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Users\\UserRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T14:05:07.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:32:00.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Orders\\OrderItem.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Orders\\OrderItem.cs",
@@ -473,41 +681,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GetCartItemsQuery.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
+              "DocumentIndex": 25,
+              "Title": "ShortOrderDto.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\ShortOrderDto.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Orders\\ShortOrderDto.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Orders\\ShortOrderDto.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Orders\\ShortOrderDto.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:14:45.411Z",
+              "WhenOpened": "2024-09-15T13:45:15.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
-              "RelativeToolTip": "src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T11:58:01.875Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T18:10:00.529Z"
+              "WhenOpened": "2024-09-15T11:20:27.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 34,
+              "Title": "RegisterServices.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\RegisterServices.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:12:50.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Carts\\CartRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:25:47.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\ICartRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:21:25.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\User.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\User.cs",
@@ -519,19 +753,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RegisterCommandHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "DocumentIndex": 33,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\IUserRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\IUserRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\IUserRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T20:14:12.222Z",
+              "WhenOpened": "2024-09-15T14:04:10.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
+              "Title": "RemoveFromCartCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:41:23.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddToCartCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T19:59:51.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserEndpoints.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
+              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:06:23.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductEndpoints.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
+              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:05:33.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CartEndpoints.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
+              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\CartEndpoints.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:27:43.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetCartItemsQueryHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQueryHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:15:56.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\CartItem.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Users\\CartItem.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Users\\CartItem.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Users\\CartItem.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:17:53.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "LoginCommandHandler.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Login\\LoginCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Login\\LoginCommandHandler.cs",
@@ -543,7 +861,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Cart\\CartItemDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:15:10.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CartConfiguration.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:31:35.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddToCartCommand.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\AddToCart\\AddToCartCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T19:58:58.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RemoveFromCartCommand.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Cart\\RemoveFromCart\\RemoveFromCartCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:40:35.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetCartItemsQuery.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Cart\\GetItems\\GetCartItemsQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:14:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
+              "RelativeToolTip": "src\\BakeryShop.Domain\\Products\\IProductRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:58:01.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:10:00.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "src\\BakeryShop.Application\\Users\\Register\\RegisterCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:14:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\Login\\LoginCommand.cs",
@@ -555,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 49,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Identity\\TokenService.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Identity\\TokenService.cs",
@@ -567,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 55,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Products\\ProductRepository.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Products\\ProductRepository.cs",
@@ -578,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 52,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\Product.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Products\\Product.cs",
@@ -589,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 56,
               "Title": "UpdateProductCommand.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommand.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\UpdateProduct\\UpdateProductCommand.cs",
@@ -600,29 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "StaffEndpoints.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs",
-              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\Staff\\StaffEndpoints.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T12:08:58.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\BakeryShop.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:05:42.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 57,
               "Title": "SearchProductQueryHandler.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\SearchProducts\\SearchProductQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\SearchProducts\\SearchProductQueryHandler.cs",
@@ -633,29 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductEndpoints.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
-              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\ProductEndpoints.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T12:05:33.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "SearchProductsQueryHandler.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
-              "RelativeToolTip": "src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQueryHandler.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T11:57:05.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 58,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
@@ -666,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 59,
               "Title": "SearchProductQuery.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\SearchProducts\\SearchProductQuery.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\SearchProducts\\SearchProductQuery.cs",
@@ -677,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 60,
               "Title": "CreateProductCommandHandler.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\CreateProduct\\CreateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\CreateProduct\\CreateProductCommandHandler.cs",
@@ -688,7 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 61,
               "Title": "CreateProductCommand.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\CreateProduct\\CreateProductCommand.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\CreateProduct\\CreateProductCommand.cs",
@@ -699,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 62,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\ProductDto.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\ProductDto.cs",
@@ -710,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 63,
               "Title": "InformationDto.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\InformationDto.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\InformationDto.cs",
@@ -721,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 64,
               "Title": "SearchProductsQuery.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQuery.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\SearchProducts\\SearchProductsQuery.cs",
@@ -732,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 65,
               "Title": "Information.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\Information.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Products\\Information.cs",
@@ -743,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 66,
               "Title": "DeleteProductCommandHandler.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\DeleteProduct\\DeleteProductCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\DeleteProduct\\DeleteProductCommandHandler.cs",
@@ -754,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 69,
               "Title": "ProductErrors.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\ProductErrors.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\ProductErrors.cs",
@@ -765,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 67,
               "Title": "DeleteProductCommand.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Staff\\Products\\DeleteProduct\\DeleteProductCommand.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Staff\\Products\\DeleteProduct\\DeleteProductCommand.cs",
@@ -776,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 68,
               "Title": "UserErrors.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Users\\UserErrors.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Users\\UserErrors.cs",
@@ -787,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 70,
               "Title": "GetProductByIdQuery.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQuery.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Products\\GetProductByIdQuery\\GetProductByIdQuery.cs",
@@ -798,7 +1166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 71,
               "Title": "AdminInitializer.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Services\\AdminInitializer.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Services\\AdminInitializer.cs",
@@ -809,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 73,
               "Title": "RegisterServices.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\RegisterServices.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Api\\RegisterServices.cs",
@@ -820,18 +1188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "UserEndpoints.cs",
-              "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
-              "ToolTip": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
-              "RelativeToolTip": "src\\BakeryShop.Api\\Endpoints\\UserEndpoints.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T12:06:23.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 72,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\illia\\AppData\\Roaming\\Microsoft\\UserSecrets\\5ed6c090-7cdd-4c6f-9642-0aa676c69f56\\secrets.json",
               "ToolTip": "C:\\Users\\illia\\AppData\\Roaming\\Microsoft\\UserSecrets\\5ed6c090-7cdd-4c6f-9642-0aa676c69f56\\secrets.json",
@@ -840,7 +1197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 74,
               "Title": "QuantityType.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Domain\\Products\\QuantityType.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Domain\\Products\\QuantityType.cs",
@@ -851,7 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 75,
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Common\\Models\\PaginatedList.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Common\\Models\\PaginatedList.cs",
@@ -862,7 +1219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 76,
               "Title": "QueryableExtensions.cs",
               "DocumentMoniker": "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Application\\Common\\Extensions\\QueryableExtensions.cs",
               "RelativeDocumentMoniker": "src\\BakeryShop.Application\\Common\\Extensions\\QueryableExtensions.cs",

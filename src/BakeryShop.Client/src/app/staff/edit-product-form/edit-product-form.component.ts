@@ -75,9 +75,7 @@ export class EditProductFormComponent extends BaseComponent implements OnInit {
     })
   }
 
-  ngOnInit() {
-
-  }
+  ngOnInit() {}
 
   private initializeInformationArray(information: InformationModel[]) {
     information?.forEach(item => {

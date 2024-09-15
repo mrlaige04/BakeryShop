@@ -7,6 +7,9 @@ import {ProductModel} from "../bakery/models/product.model";
 import {CreateProduct} from "./requests/create-product";
 import {AdminSearchProducts} from "./product-management-page/AdminSearchProducts";
 import {BakeryService} from "../bakery/bakery.service";
+import {SearchOrders} from "../orders/requests/search-orders";
+import {OrderModel} from "../orders/models/order.model";
+import {EditOrder} from "./requests/edit-order";
 
 @Injectable({
   providedIn: 'root'
@@ -38,7 +41,6 @@ export class StaffService {
     params = query.quantityTo != undefined ? params.set('quantityTo', query.quantityTo) : params;
     params = query.quantityType ? params.set('quantityType', query.quantityType) : params;
 
-
     return this.http.get<PaginatedList<ProductModel>>(url, { params });
   }
 
@@ -57,16 +59,23 @@ export class StaffService {
     return this.http.delete(url)
   }
 
-
-  getOrders() {
-
+  getOrder(id: Guid) {
+    const url = this.baseUrl + '/orders/' + id;
+    return this.http.get<OrderModel>(url)
   }
 
-  updateOrder() {
+  getOrders(query: SearchOrders) {
+    const url = this.baseUrl + '/orders'
 
+    const params = new HttpParams()
+      .set('pageNumber', query.pageNumber ?? '')
+      .set('pageSize', query.pageSize ?? '')
+
+    return this.http.get<PaginatedList<OrderModel>>(url, { params });
   }
 
-  deleteOrder(id: Guid) {
-
+  updateOrder(id: Guid, order: EditOrder) {
+    const url = this.baseUrl + '/orders/' + id;
+    return this.http.put<EditOrder>(url, order)
   }
 }

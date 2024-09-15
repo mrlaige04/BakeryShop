@@ -50,7 +50,9 @@ export class CreateProductFormComponent extends BaseComponent implements OnInit{
 
   quantityTypes: { key: string, value: string | QuantityType }[];
 
-  constructor(private dialogConfig: DynamicDialogConfig) {
+  triedToSubmit = false;
+
+  constructor() {
     super();
 
     this.quantityTypes = Object.entries(QuantityType)
@@ -65,9 +67,17 @@ export class CreateProductFormComponent extends BaseComponent implements OnInit{
   }
 
   productForm = this.fb.group({
-    title: this.fb.control(null, [Validators.required]),
-    price: this.fb.control(null, [Validators.required]),
-    quantity: this.fb.control(null, [Validators.required]),
+    title: this.fb.control(null, [
+      Validators.required, Validators.maxLength(50)
+    ]),
+    price: this.fb.control(null, [
+      Validators.required,
+      Validators.min(0)
+    ]),
+    quantity: this.fb.control(null, [
+      Validators.required,
+      Validators.min(0),
+    ]),
     quantityType: this.fb.control(null, [Validators.required]),
     description: this.fb.control(null, []),
     information: this.fb.array([])
@@ -91,6 +101,7 @@ export class CreateProductFormComponent extends BaseComponent implements OnInit{
   }
 
   submit() {
+    this.triedToSubmit = true;
     if (!this.productForm.valid) {
       return;
     }

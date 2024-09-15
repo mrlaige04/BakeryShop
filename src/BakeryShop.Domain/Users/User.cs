@@ -19,4 +19,14 @@ public class User : IdentityUser<Guid>, IEntity<Guid>
         UserName = email ,
         Cart = new()
     };
+
+    public void AddOrder(Order order)
+    {
+        _orders.Add(order);
+    }
+
+    public void ClearCart()
+    {
+        Cart?.ClearCart();
+    }
 }

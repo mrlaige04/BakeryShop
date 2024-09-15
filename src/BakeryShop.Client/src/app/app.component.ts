@@ -5,6 +5,7 @@ import {ToastModule} from "primeng/toast";
 import {MessageService} from "primeng/api";
 import {NotificationService} from "./utils/services/notification.service";
 import {CartService} from "./cart/cart.service";
+import {AuthService} from "./auth/auth.service";
 
 @Component({
   selector: 'app-root',
@@ -17,10 +18,15 @@ import {CartService} from "./cart/cart.service";
 export class AppComponent implements OnInit{
   title = 'BakeryShop.Client';
   private cart = inject(CartService)
+  private auth = inject(AuthService)
 
   ngOnInit() {
-    const getItemsSubscription = this.cart.getMyItems().subscribe({
-      next: items => this.cart.initItems(items),
-    })
+    if (this.auth.isAuthenticated()) {
+      const getItemsSubscription = this.cart.getMyItems()
+        .subscribe({
+          next: items => this.cart.initItems(items),
+          complete: () => getItemsSubscription.unsubscribe()
+        })
+    }
   }
 }

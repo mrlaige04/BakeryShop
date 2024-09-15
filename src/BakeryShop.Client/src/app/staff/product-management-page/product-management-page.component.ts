@@ -23,6 +23,7 @@ import {FormsModule} from "@angular/forms";
 import {AdminSearchProducts} from "./AdminSearchProducts";
 import {PaginatorModule, PaginatorState} from "primeng/paginator";
 import {EditProductFormComponent} from "../edit-product-form/edit-product-form.component";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'bs-product-management-page',
@@ -39,7 +40,8 @@ import {EditProductFormComponent} from "../edit-product-form/edit-product-form.c
     ConfirmDialogModule,
     FormsModule,
     JsonPipe,
-    PaginatorModule
+    PaginatorModule,
+    RouterLink
   ],
   providers: [DialogService, ConfirmationService],
   templateUrl: './product-management-page.component.html',

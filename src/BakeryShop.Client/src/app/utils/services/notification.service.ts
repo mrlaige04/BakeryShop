@@ -22,6 +22,7 @@ export class NotificationService {
 
   private addMessage(title: string, severity: string, message?: string) {
     this.message.add({
+      closable: true,
       severity,
       summary: title,
       detail: message,
