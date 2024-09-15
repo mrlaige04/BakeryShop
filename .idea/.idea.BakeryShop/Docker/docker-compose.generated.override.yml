@@ -2,8 +2,8 @@
 services:
   bakery.api:
     build:
-      context: "D:\\work\\devsx\\BakeryShop\\docker"
-      dockerfile: "../src/BakeryShop.Api/Dockerfile"
+      context: "D:\\work\\devsx\\BakeryShop\\src"
+      dockerfile: "BakeryShop.Api/Dockerfile"
       target: "base"
     command: []
     entrypoint:

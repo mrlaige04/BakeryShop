@@ -1,7 +1,7 @@
 ﻿services:
   bakery.api:
     image: bakeryshop.api
-    container_name: bakeryshop_api
+    container_name: bakery.api
     ports:
       - "5000:8080"
     build:
@@ -28,17 +28,17 @@
     restart: always
     networks:
       - default
-    
+  
   bakeryshop_client:
     build:
-      context: ../src
-      dockerfile: BakeryShop.Client/Dockerfile
+      context: ../src/BakeryShop.Client
+      dockerfile: Dockerfile
     ports:
       - "4200:80"
     depends_on:
       - bakery.api
     networks:
-      default:
+      - default
 
 volumes:
   bakeryshop_db_data:
