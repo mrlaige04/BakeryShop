@@ -2,18 +2,27 @@
 using BakeryShop.Application.Common.Abstractions;
 using BakeryShop.Application.Users.Orders;
 using BakeryShop.Domain.Orders;
+using Microsoft.Extensions.Logging;
 
 namespace BakeryShop.Application.Staff.Orders.EditOrder;
-internal sealed class EditOrderCommandHandler(IOrderRepository orderRepository)
+internal sealed class EditOrderCommandHandler(
+    IOrderRepository orderRepository,
+    ILogger<EditOrderCommandHandler> logger
+    )
     : ICommandHandler<EditOrderCommand, FullOrderDto>
 {
     public async Task<Result<FullOrderDto>> Handle(EditOrderCommand request, CancellationToken cancellationToken)
     {
+        logger.LogInformation("EditOrderCommand: Started.");
+
         var order = await orderRepository.GetById(request.Id, cancellationToken);
 
         if (order is null)
+        {
+            logger.LogInformation("EditOrderCommand: Failed. Order not found.");
             return Result.NotFound();
-
+        }
+            
         order = UpdateOrder(order, request);
 
         await orderRepository.Update(order, cancellationToken);
@@ -30,6 +39,8 @@ internal sealed class EditOrderCommandHandler(IOrderRepository orderRepository)
                     Quantity = i.Quantity
                 })
         };
+
+        logger.LogInformation("EditOrderCommand: Success.");
 
         return dto;
     }

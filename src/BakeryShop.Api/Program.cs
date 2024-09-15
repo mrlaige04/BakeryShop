@@ -6,8 +6,14 @@ using BakeryShop.Application;
 using BakeryShop.Infrastructure;
 using BakeryShop.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Configuration.AddEnvironmentVariables();
+
+builder.Host.UseSerilog((context, configuration) =>
+    configuration.ReadFrom.Configuration(context.Configuration));
 
 builder.Services
     .LoadConfiguration(builder.Configuration)
@@ -21,14 +27,10 @@ using var serviceScope = app.Services.CreateScope();
 var adminInitializer = serviceScope.ServiceProvider.GetRequiredService<AdminInitializer>();
 await adminInitializer.Initialize();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
-
 app.UseCors();
 
 app.UseAuthentication();

@@ -1,5 +1,5 @@
 export const environment = {
   apiConfig: {
-    apiUrl: 'https://localhost:7126/api'
+    apiUrl: 'http://localhost:5000/api'
   }
 };

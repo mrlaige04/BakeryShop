@@ -1,13 +1,18 @@
 ﻿using Ardalis.Result;
 using BakeryShop.Application.Common.Abstractions;
 using BakeryShop.Domain.Products;
+using Microsoft.Extensions.Logging;
 
 namespace BakeryShop.Application.Staff.Products.CreateProduct;
-internal sealed class CreateProductCommandHandler(IProductRepository productRepository)
+internal sealed class CreateProductCommandHandler(
+    IProductRepository productRepository,
+    ILogger<CreateProductCommandHandler> logger)
     : ICommandHandler<CreateProductCommand, Guid>
 {
     public async Task<Result<Guid>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
+        logger.LogInformation("CreateProductCommand: Started.");
+
         var product = Product.Create(
             request.Title,
             request.Price,
@@ -28,6 +33,8 @@ internal sealed class CreateProductCommandHandler(IProductRepository productRepo
                 product.AddInformation(info);
             }
         }
+
+        logger.LogInformation("CreateProductCommand: Success.");
 
         return await productRepository.InsertAsync(product, cancellationToken);
     }

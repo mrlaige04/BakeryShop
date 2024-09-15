@@ -1,0 +1,47 @@
+﻿services:
+  bakery.api:
+    image: bakeryshop.api
+    container_name: bakery.api
+    ports:
+      - "5000:8080"
+    build:
+      context: ../src
+      dockerfile: BakeryShop.Api/Dockerfile
+    depends_on:
+      - bakeryshop_db
+    environment:
+      - MSSQL_SA_PASSWORD=Bakery123!
+    networks:
+      - default
+  
+  bakeryshop_db:
+    image: mcr.microsoft.com/mssql/server
+    container_name: bakeryshop_db
+    ports:
+      - 1433:1433
+    environment:
+      - SA_PASSWORD=Bakery123!
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+    volumes:
+      - bakeryshop_db_data:/var/opt/mssql
+    restart: always
+    networks:
+      - default
+  
+  bakeryshop_client:
+    build:
+      context: ../src/BakeryShop.Client
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
+    depends_on:
+      - bakery.api
+    networks:
+      - default
+
+volumes:
+  bakeryshop_db_data:
+
+networks:
+  default:

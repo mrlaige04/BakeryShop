@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  bakery.api:
+    build:
+      context: "D:\\work\\devsx\\BakeryShop\\src"
+      dockerfile: "BakeryShop.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/BakeryShop.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "bakeryshop.api:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\illia\\AppData\\Roaming\\Microsoft\\UserSecrets:/home/app/.microsoft/usersecrets"
+    - "C:\\Users\\illia\\.nuget\\packages:/home/app/.nuget/packages"
+    - "D:\\work\\devsx\\BakeryShop\\src\\BakeryShop.Api:/app:rw"
+    - "D:\\work\\devsx\\BakeryShop:/src:rw"
+    working_dir: "/app"

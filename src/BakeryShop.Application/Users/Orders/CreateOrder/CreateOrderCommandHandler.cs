@@ -3,30 +3,40 @@ using BakeryShop.Application.Common.Abstractions;
 using BakeryShop.Application.Identity;
 using BakeryShop.Domain.Orders;
 using BakeryShop.Domain.Users;
+using Microsoft.Extensions.Logging;
 
 namespace BakeryShop.Application.Users.Orders.CreateOrder;
 internal sealed class CreateOrderCommandHandler(
     ICurrentUser currentUser,
     ICartRepository cartRepository,
-    IUserRepository userRepository
-    )
+    IUserRepository userRepository,
+    ILogger<CreateOrderCommandHandler> logger)
     : ICommandHandler<CreateOrderCommand, ShortOrderDto>
 {
     public async Task<Result<ShortOrderDto>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
+        logger.LogInformation("CreateOrderCommand: Started.");
+
         if (!Guid.TryParse(currentUser.Id?.ToString(), out var userId))
         {
+            logger.LogInformation("CreateOrderCommand: Failed. User unauthorized.");
             return Result.Unauthorized();
         }
 
         var user = await userRepository.GetById(userId, cancellationToken);
         if (user is null)
+        {
+            logger.LogInformation("CreateOrderCommand: Failed. User unauthorized.");
             return Result.Unauthorized();
-
+        }
+            
         var cart = await cartRepository.GetByUserId(userId, cancellationToken);
         if (cart is null)
+        {
+            logger.LogInformation("CreateOrderCommand: Failed. Cart not found.");
             return Result.NotFound();
-
+        }
+            
         var deliveryInfo = new DeliveryInfo
         {
             City = request.City,
@@ -51,6 +61,8 @@ internal sealed class CreateOrderCommandHandler(
             Status = order.Status,
             DeliveryInfo = order.DeliveryInfo
         };
+
+        logger.LogInformation("CreateOrderCommand: Success.");
 
         return dto;
     }
